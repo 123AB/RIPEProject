@@ -73,3 +73,13 @@ draw_map(m)
 for ct in cts:
     x, y = m(coords[ct][0],coords[ct][1])
     plt.plot(x, y, 'ok', markersize=1)
+
+#Statistics
+n_nodes = len(G2.nodes())
+n_edges = len(G2.edges())
+n_locs = len(cts)
+
+print("Statistics:")
+print("Number of AS: " + str(n_nodes))
+print("Number of links: " + str(n_edges))
+print("Number of locations: " + str(n_locs))
