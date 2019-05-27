@@ -8,6 +8,10 @@ Created on Tue May 21 10:47:44 2019
 import networkx as nx
 from node_objects.node import Node
 
+import pickle
+import os
+local_data_path = os.path.dirname(os.path.realpath(__file__)) + "\\pkls\\"
+
 #Load graph data from text file and create a graph.
 def load_graph_data(data_path):
     G = nx.MultiGraph()
@@ -97,3 +101,24 @@ def load_loc_data(data_path):
             cts.append(ct)
             coords[ct] = (lon, lat)
     return coords, cts
+
+#Serialize graph object to binary data
+#Note: make sure pkls folder exists
+#https://stackoverflow.com/questions/38233515/pickle-file-import-error?rq=1
+def save_graph(graph, name: str):
+    file_location = '{}{}.pkl'.format(local_data_path, name)
+    with open(file_location, 'wb') as output:
+        pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
+    print("Grahp saved to {}".format(file_location))
+
+#Load graph from file
+def reload_graph(name: str):
+    file_location = '{}{}.pkl'.format(local_data_path, name)
+    try:
+        with open(file_location, 'rb') as input:
+            graph = pickle.load(input)
+            print("Loaded graph from {}".format(file_location))
+    except FileNotFoundError:
+        print("File not found: {}".format(file_location))
+        return False
+    return graph

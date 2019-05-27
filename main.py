@@ -15,9 +15,10 @@ import visualizer.drawmap as vis
 import datareader.reader as dr
 
 #Load graph data
-graph_data_path = "data\\201603.as-rel-geo.txt"
-
-G2 = dr.load_graph_data(graph_data_path)
+G2 = dr.reload_graph("G2")
+if G2 == False:
+    graph_data_path = "data\\201603.as-rel-geo.txt"
+    G2 = dr.load_graph_data(graph_data_path)
 
 #Load location data
 loc_data_path = "data\\201603.locations.txt"
@@ -42,3 +43,6 @@ print("Statistics:")
 print("Number of AS: " + str(n_nodes))
 print("Number of links: " + str(n_edges))
 print("Number of locations: " + str(n_locs))
+
+#Save graph
+dr.save_graph(G2, "G2")
