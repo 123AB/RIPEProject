@@ -24,6 +24,11 @@ if G2 == False:
 loc_data_path = "data\\201603.locations.txt"
 coords, cts = dr.load_loc_data(loc_data_path)
 
+G2_distances = dr.reload_graph("G2_distances")
+if G2_distances == False:
+    G2_distances = dr.calculate_distances(coords, cts)
+    dr.save_graph(G2_distances, "G2_distances")
+
 
 #Plot
 fig = plt.figure(figsize=(8, 6), edgecolor='w')
@@ -43,6 +48,8 @@ print("Statistics:")
 print("Number of AS: " + str(n_nodes))
 print("Number of links: " + str(n_edges))
 print("Number of locations: " + str(n_locs))
+
+#dr.get_distance("Amsterdam-NH-NL", "New York City-NY-US", G2_distances)
 
 #Save graph
 dr.save_graph(G2, "G2")

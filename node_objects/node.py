@@ -9,8 +9,8 @@ import networkx as nx
 import numpy as np
 
 class Node:
-    def __init__(self, id: int):
-        self.id = id
+    def __init__(self, node_id: int):
+        self.id = node_id
     
     #Sample function
     def print_id(self):

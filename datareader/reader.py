@@ -12,6 +12,8 @@ import pickle
 import os
 local_data_path = os.path.dirname(os.path.realpath(__file__)) + "\\pkls\\"
 
+import numpy as np
+
 #Load graph data from text file and create a graph.
 def load_graph_data(data_path):
     G = nx.MultiGraph()
@@ -101,6 +103,40 @@ def load_loc_data(data_path):
             cts.append(ct)
             coords[ct] = (lon, lat)
     return coords, cts
+
+#Calculate distances
+def calculate_distances(coords, cts):
+    city_distances = dict()
+    for i1 in range(len(cts)-1):
+        for i2 in range(i1+1, len(cts)):
+            ct1 = cts[i1]
+            ct2 = cts[i2]
+            city_distances[ct1, ct2] = haversine_km(coords[ct1], coords[ct2])
+    return city_distances
+
+#Haversine distance calculation. Returns answer in kilometers.
+#https://www.movable-type.co.uk/scripts/latlong.html
+#https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula
+def haversine_km(coords_1, coords_2):
+    R = 6371e3
+    d_lon = np.radians(coords_2[0] - coords_1[0])
+    d_lat = np.radians(coords_2[1] - coords_1[1])
+    lat_1 = np.radians(coords_1[1])
+    lat_2 = np.radians(coords_2[1])
+    a = np.sin(d_lat/2)**2 + np.cos(lat_1)*np.cos(lat_2)*np.sin(d_lon/2)**2
+    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))
+    d = R*c
+    return d/1000
+
+#Get distance from dictionary
+def get_distance(ct1, ct2, distances):
+    if (ct1, ct2) in distances.keys():
+        return distances[ct1, ct2]
+    elif (ct2, ct1) in distances.keys():
+        return distances[ct2, ct1]
+    else:
+        print("Error: distance not found.")
+        return 0
 
 #Serialize graph object to binary data
 #Note: make sure pkls folder exists
