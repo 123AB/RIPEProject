@@ -109,7 +109,7 @@ def save_graph(graph, name: str):
     file_location = '{}{}.pkl'.format(local_data_path, name)
     with open(file_location, 'wb') as output:
         pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
-    print("Grahp saved to {}".format(file_location))
+    print("Graph saved to {}".format(file_location))
 
 #Load graph from file
 def reload_graph(name: str):
