@@ -10,6 +10,7 @@ def checkSpread(center_x, center_y, radius, x, y):
     square_dist = (center_x - x) ** 2 + (center_y - y) ** 2
     return square_dist <= radius ** 2
 
+"""
 def shorestPath(G, initial):
       visited = {initial: 0}
       path = {}
@@ -36,5 +37,9 @@ def shorestPath(G, initial):
             if edge not in visited or weight < visited[edge]:
                 visited[edge] = weight
                 path[edge] = min_node
+    return visited, path
+"""
 
-      return visited, path
+def clustering_coefficient(G, node):
+    CC = nx.clustering(G,node)
+    return CC

@@ -13,6 +13,7 @@ from mpl_toolkits.basemap import Basemap
 #reload?
 import visualizer.drawmap as vis
 import datareader.reader as dr
+import algorithm as va
 
 #Load graph data
 G2 = dr.reload_graph("G2")
@@ -53,3 +54,4 @@ print("Number of locations: " + str(n_locs))
 
 #Save graph
 dr.save_graph(G2, "G2")
+va.clustering_coefficient(G2,list(G2.nodes)[194])
