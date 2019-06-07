@@ -41,5 +41,6 @@ def shorestPath(G, initial):
 """
 
 def clustering_coefficient(G, node):
-    CC = nx.clustering(G,node)
+    G2 = nx.DiGraph(G)
+    CC = nx.clustering(G2,node)
     return CC
