@@ -8,7 +8,7 @@ Created on Mon May 20 16:01:11 2019
 import networkx as nx
 
 #Load graph data
-graph_data_path = "data\\201603.as-rel-geo.txt"
+graph_data_path = "data/201603.as-rel-geo.txt"
 
 G2 = nx.MultiGraph()
 
@@ -25,7 +25,7 @@ with open(graph_data_path) as f:
             G2.add_edge(node1, node2, city = ct)
 
 #Load location data
-loc_data_path = "data\\201603.locations.txt"
+loc_data_path = "data/201603.locations.txt"
 coords = dict()
 cts = list()
 
