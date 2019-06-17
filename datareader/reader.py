@@ -56,6 +56,29 @@ def load_graph_data(data_path):
                 link_spl = link.split(",")
                 ct = link_spl[0]
                 G.add_edge(node1, node2, city = ct)
+
+    #Set normalized ID numbers.
+    norm_id = 0
+    
+    #Sort components by size
+    components = list(nx.connected_components(G))
+    sizes = list()
+    for component in components:
+        sizes.append(len(component))
+    
+    #Stack them.
+    #np.argsort puts smallest first, negate everything to get largest first.
+    stacked = np.column_stack((components, sizes))
+    ind=np.argsort(-stacked[:,1])
+    stacked = stacked[ind]
+    
+    components = list(stacked[:,0])
+    
+    for component in list(nx.connected_components(G)):
+        for node in list(component):
+            node.set_norm_id(norm_id)
+            norm_id = norm_id + 1
+
     return G
 
 #Load graph data using integers as nodes.
@@ -129,14 +152,8 @@ def haversine_km(coords_1, coords_2):
     return d/1000
 
 #Get distance from dictionary
-def get_distance(ct1, ct2, distances):
-    if (ct1, ct2) in distances.keys():
-        return distances[ct1, ct2]
-    elif (ct2, ct1) in distances.keys():
-        return distances[ct2, ct1]
-    else:
-        print("Error: distance not found.")
-        return 0
+#def get_distance(ct1, ct2, distances):
+#Moved to graph_functions.py
 
 #Serialize graph object to binary data
 #Note: make sure pkls folder exists
