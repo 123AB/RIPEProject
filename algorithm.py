@@ -69,7 +69,7 @@ def clustering_coefficient(G):
 #matplotlib inline
 
 filelocation="data/"
-filename="201603.as-rel-geo3.txt"
+filename="201603.as-rel-geo.txt"
 
 filepath=filelocation+filename
 
