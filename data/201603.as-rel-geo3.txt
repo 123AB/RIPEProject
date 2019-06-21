@@ -1,0 +1,1158 @@
+2|34|Newark-DE-US,edge
+2|9122|Newark-DE-US,edge
+2|26216|Newark-DE-US,edge
+2|37628|Newark-DE-US,edge
+2|45433|Newark-DE-US,edge
+2|47837|Newark-DE-US,edge
+2|57434|Newark-DE-US,edge
+2|59494|Newark-DE-US,edge
+2|133219|Newark-DE-US,edge
+2|197747|Newark-DE-US,edge
+3|3356|Boston-MA-US,bc|San Jose-CA-US,bc
+3|30071|Boston-MA-US,bc
+6|3356|Phoenix-AZ-US,bc
+8|2914|Houston-TX-US,bc
+8|3356|Houston-TX-US,bc
+9|3356|San Jose-CA-US,bc
+12|3356|New York City-NY-US,bc
+12|6453|New York City-NY-US,bc
+14|3356|New York City-NY-US,bc
+19|3356|Dallas-TX-US,bc
+24|293|Huntsville-AL-US,edge
+24|297|Huntsville-AL-US,edge
+24|2153|Huntsville-AL-US,edge
+24|6939|Huntsville-AL-US,edge|Palo Alto-CA-US,lg
+24|7575|Huntsville-AL-US,edge|Seattle-WA-US,bc
+24|10343|Huntsville-AL-US,edge
+24|11537|Huntsville-AL-US,edge
+24|22388|Huntsville-AL-US,edge
+29|3356|Stamford-CT-US,bc
+33|3356|London-ENG-UK,bc|San Jose-CA-US,bc
+35|2914|New York City-NY-US,bc
+42|260|London-ENG-UK,mlp
+42|286|Berlin-16-DE,bc|Frankfurt Am Main-05-DE,bc
+42|553|Frankfurt Am Main-05-DE,mlp
+42|1103|London-ENG-UK,mlp
+42|1241|Frankfurt Am Main-05-DE,mlp
+42|1267|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|1290|London-ENG-UK,mlp
+42|1547|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|1680|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|1764|Frankfurt Am Main-05-DE,mlp
+42|2110|London-ENG-UK,mlp
+42|2134|London-ENG-UK,mlp
+42|2484|London-ENG-UK,mlp
+42|2611|London-ENG-UK,mlp
+42|2613|Frankfurt Am Main-05-DE,mlp
+42|2635|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|2854|Frankfurt Am Main-05-DE,mlp
+42|2857|Frankfurt Am Main-05-DE,mlp
+42|2906|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|2914|Atlanta-GA-US,bc|Changi-04-SG,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Mascot-02-AU,bc|New York City-NY-US,bc|Paris-A8-FR,bc|Santa Clara-CA-US,bc
+42|3213|London-ENG-UK,mlp
+42|3252|Frankfurt Am Main-05-DE,mlp
+42|3255|Frankfurt Am Main-05-DE,mlp
+42|3257|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Miami-FL-US,bc|Washington D_C_-DC-US,bc
+42|3303|Ashburn-VA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|Paris-A8-FR,bc|Z_Rich-ZH-CH,bc
+42|3327|Frankfurt Am Main-05-DE,mlp
+42|3491|Dongguan-30-CN,bc|Hoofddorp-07-NL,bc|Los Angeles-CA-US,bc|Mascot-02-AU,bc|Miami-FL-US,bc|Seattle-WA-US,bc
+42|3741|London-ENG-UK,mlp
+42|3856|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|4004|London-ENG-UK,mlp
+42|4181|Ashburn-VA-US,bc|Atlanta-GA-US,bc|Chicago-IL-US,bc
+42|4589|Ashburn-VA-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc
+42|4637|London-ENG-UK,mlp
+42|4651|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|4788|Frankfurt Am Main-05-DE,mlp
+42|4800|London-ENG-UK,mlp
+42|5391|Frankfurt Am Main-05-DE,mlp
+42|5404|Frankfurt Am Main-05-DE,mlp
+42|5409|Frankfurt Am Main-05-DE,mlp
+42|5459|London-ENG-UK,mlp
+42|5466|Frankfurt Am Main-05-DE,mlp
+42|5483|Frankfurt Am Main-05-DE,mlp
+42|5503|London-ENG-UK,mlp
+42|5539|Frankfurt Am Main-05-DE,mlp
+42|5552|London-ENG-UK,mlp
+42|5563|Frankfurt Am Main-05-DE,mlp
+42|5564|London-ENG-UK,mlp
+42|5578|Frankfurt Am Main-05-DE,mlp
+42|5588|Frankfurt Am Main-05-DE,mlp
+42|5605|Frankfurt Am Main-05-DE,mlp
+42|5631|London-ENG-UK,mlp
+42|5713|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|6507|Frankfurt Am Main-05-DE,mlp
+42|6619|London-ENG-UK,mlp
+42|6643|London-ENG-UK,mlp
+42|6648|London-ENG-UK,mlp
+42|6659|Frankfurt Am Main-05-DE,mlp
+42|6661|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|6663|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|6667|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc
+42|6677|London-ENG-UK,mlp
+42|6682|Frankfurt Am Main-05-DE,mlp
+42|6697|Frankfurt Am Main-05-DE,mlp
+42|6717|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|6724|Frankfurt Am Main-05-DE,mlp
+42|6730|Ashburn-VA-US,bc|Paris-A8-FR,bc|Z_Rich-ZH-CH,bc
+42|6735|Frankfurt Am Main-05-DE,mlp
+42|6762|Ashburn-VA-US,bc|Changi-04-SG,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Palo Alto-CA-US,bc
+42|6774|Frankfurt Am Main-05-DE,mlp
+42|6775|Frankfurt Am Main-05-DE,mlp
+42|6866|London-ENG-UK,mlp
+42|6876|Frankfurt Am Main-05-DE,mlp
+42|6898|Frankfurt Am Main-05-DE,mlp
+42|6910|Frankfurt Am Main-05-DE,mlp
+42|6939|Ashburn-VA-US,lg|Atlanta-GA-US,lg|Berlin-16-DE,lg|Boston-MA-US,lg|Calgary-01-CA,lg|Changi-04-SG,lg|Chicago-IL-US,lg|D_Sseldorf-NW-DE,lg|Dorval-10-CA,lg|Dublin-L-IE,lg|Frankfurt Am Main-05-DE,lg,mlp|Fuhlsb_Ttel-HH-DE,lg|Hoofddorp-07-NL,lg|London-ENG-UK,mlp,lg|Los Angeles-CA-US,lg|Miami-FL-US,lg|Milano-09-IT,lg|Mississauga-08-CA,lg|New York City-NY-US,lg|Palo Alto-CA-US,lg|Paris-A8-FR,lg|Portland-OR-US,lg|Prague-52-CZ,lg|San Francisco-CA-US,lg|Seattle-WA-US,lg|Seoul-11-KR,lg|Sofia-42-BG,lg|Stockholm-26-SE,lg|Tallinn-01-EE,lg|Tokyo-40-JP,lg|Winnipeg-03-CA,lg|Z_Rich-ZH-CH,lg
+42|7160|London-ENG-UK,mlp
+42|7342|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|7575|Changi-04-SG,bc|Los Angeles-CA-US,bc|Palo Alto-CA-US,bc|Seattle-WA-US,bc
+42|7642|London-ENG-UK,mlp
+42|7713|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8075|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8220|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8245|Frankfurt Am Main-05-DE,mlp
+42|8262|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8282|London-ENG-UK,mlp
+42|8301|London-ENG-UK,mlp
+42|8302|Frankfurt Am Main-05-DE,mlp
+42|8304|London-ENG-UK,mlp
+42|8308|Frankfurt Am Main-05-DE,mlp
+42|8309|London-ENG-UK,mlp
+42|8319|Frankfurt Am Main-05-DE,mlp
+42|8339|Frankfurt Am Main-05-DE,mlp
+42|8374|Frankfurt Am Main-05-DE,mlp
+42|8391|Frankfurt Am Main-05-DE,mlp
+42|8400|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8403|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8422|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8426|Frankfurt Am Main-05-DE,mlp
+42|8468|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8469|Frankfurt Am Main-05-DE,mlp
+42|8473|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8529|Frankfurt Am Main-05-DE,mlp
+42|8530|London-ENG-UK,mlp
+42|8544|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8551|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8560|Frankfurt Am Main-05-DE,mlp
+42|8591|Frankfurt Am Main-05-DE,mlp
+42|8596|Frankfurt Am Main-05-DE,mlp
+42|8632|Frankfurt Am Main-05-DE,mlp
+42|8648|Frankfurt Am Main-05-DE,mlp
+42|8674|London-ENG-UK,mlp
+42|8681|London-ENG-UK,mlp
+42|8683|London-ENG-UK,mlp
+42|8717|Frankfurt Am Main-05-DE,mlp
+42|8732|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8741|Frankfurt Am Main-05-DE,mlp
+42|8763|Frankfurt Am Main-05-DE,mlp
+42|8764|Frankfurt Am Main-05-DE,mlp
+42|8767|Frankfurt Am Main-05-DE,mlp
+42|8789|London-ENG-UK,mlp
+42|8804|Frankfurt Am Main-05-DE,mlp
+42|8823|Frankfurt Am Main-05-DE,mlp
+42|8839|Frankfurt Am Main-05-DE,mlp
+42|8851|London-ENG-UK,mlp
+42|8859|Frankfurt Am Main-05-DE,mlp
+42|8866|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8879|Frankfurt Am Main-05-DE,mlp
+42|8881|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|8897|London-ENG-UK,mlp
+42|8902|London-ENG-UK,mlp
+42|8926|Frankfurt Am Main-05-DE,mlp
+42|8950|London-ENG-UK,mlp
+42|9022|Frankfurt Am Main-05-DE,mlp
+42|9029|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9036|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9050|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9063|Frankfurt Am Main-05-DE,mlp
+42|9116|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9119|Frankfurt Am Main-05-DE,mlp
+42|9145|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9189|Frankfurt Am Main-05-DE,mlp
+42|9197|Frankfurt Am Main-05-DE,mlp
+42|9304|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9318|Frankfurt Am Main-05-DE,mlp
+42|9329|Frankfurt Am Main-05-DE,mlp
+42|9498|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|9505|London-ENG-UK,mlp
+42|9583|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|10026|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|10158|Frankfurt Am Main-05-DE,mlp
+42|10282|Frankfurt Am Main-05-DE,mlp
+42|10310|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|10474|London-ENG-UK,mlp
+42|11404|Palo Alto-CA-US,bc
+42|11845|London-ENG-UK,mlp
+42|12200|London-ENG-UK,mlp
+42|12290|London-ENG-UK,mlp
+42|12301|Frankfurt Am Main-05-DE,mlp
+42|12306|Frankfurt Am Main-05-DE,mlp
+42|12312|Frankfurt Am Main-05-DE,mlp
+42|12316|Frankfurt Am Main-05-DE,mlp
+42|12329|Frankfurt Am Main-05-DE,mlp
+42|12337|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12348|Frankfurt Am Main-05-DE,mlp
+42|12355|Frankfurt Am Main-05-DE,mlp
+42|12360|Frankfurt Am Main-05-DE,mlp
+42|12399|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12470|Frankfurt Am Main-05-DE,mlp
+42|12480|Frankfurt Am Main-05-DE,mlp
+42|12496|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12510|Frankfurt Am Main-05-DE,mlp
+42|12519|London-ENG-UK,mlp
+42|12531|Frankfurt Am Main-05-DE,mlp
+42|12552|Frankfurt Am Main-05-DE,mlp
+42|12576|London-ENG-UK,mlp
+42|12578|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12611|Frankfurt Am Main-05-DE,mlp
+42|12615|London-ENG-UK,mlp
+42|12638|Frankfurt Am Main-05-DE,mlp
+42|12676|Frankfurt Am Main-05-DE,mlp
+42|12678|Frankfurt Am Main-05-DE,mlp
+42|12684|Frankfurt Am Main-05-DE,mlp
+42|12693|Frankfurt Am Main-05-DE,mlp
+42|12695|Frankfurt Am Main-05-DE,mlp
+42|12713|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12731|Frankfurt Am Main-05-DE,mlp
+42|12759|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12779|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12808|Frankfurt Am Main-05-DE,mlp
+42|12843|Frankfurt Am Main-05-DE,mlp
+42|12849|Frankfurt Am Main-05-DE,mlp
+42|12850|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|12859|Frankfurt Am Main-05-DE,mlp
+42|12883|Frankfurt Am Main-05-DE,mlp
+42|12897|Frankfurt Am Main-05-DE,mlp
+42|12931|Frankfurt Am Main-05-DE,mlp
+42|12941|Frankfurt Am Main-05-DE,mlp
+42|12969|London-ENG-UK,mlp
+42|12989|Atlanta-GA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,mlp|Hoofddorp-07-NL,bc|London-ENG-UK,mlp|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Seattle-WA-US,bc|Washington D_C_-DC-US,bc
+42|12993|Frankfurt Am Main-05-DE,mlp
+42|13000|Frankfurt Am Main-05-DE,mlp
+42|13002|Frankfurt Am Main-05-DE,mlp
+42|13005|London-ENG-UK,mlp
+42|13009|London-ENG-UK,mlp
+42|13030|Frankfurt Am Main-05-DE,bc|Glattbrugg-ZH-CH,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Paris-A8-FR,bc|Vienna-09-AT,bc
+42|13054|Frankfurt Am Main-05-DE,mlp
+42|13101|Frankfurt Am Main-05-DE,mlp
+42|13122|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|13124|Frankfurt Am Main-05-DE,mlp
+42|13132|Frankfurt Am Main-05-DE,mlp
+42|13157|Frankfurt Am Main-05-DE,mlp
+42|13193|Frankfurt Am Main-05-DE,mlp
+42|13208|London-ENG-UK,mlp
+42|13237|Frankfurt Am Main-05-DE,mlp
+42|13238|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|13249|Frankfurt Am Main-05-DE,mlp
+42|13285|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|13335|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|13414|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|13768|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|14537|London-ENG-UK,mlp
+42|15133|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|15169|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|15366|Frankfurt Am Main-05-DE,mlp
+42|15377|Frankfurt Am Main-05-DE,mlp
+42|15399|London-ENG-UK,mlp
+42|15533|London-ENG-UK,mlp
+42|15547|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|15589|London-ENG-UK,mlp
+42|15594|Frankfurt Am Main-05-DE,mlp
+42|15598|Frankfurt Am Main-05-DE,mlp
+42|15672|Frankfurt Am Main-05-DE,mlp
+42|15692|London-ENG-UK,mlp
+42|15695|London-ENG-UK,mlp
+42|15743|Frankfurt Am Main-05-DE,mlp
+42|15763|Frankfurt Am Main-05-DE,mlp
+42|15772|Frankfurt Am Main-05-DE,mlp
+42|15802|London-ENG-UK,mlp
+42|15830|Frankfurt Am Main-05-DE,mlp
+42|15839|London-ENG-UK,mlp
+42|15895|Frankfurt Am Main-05-DE,mlp
+42|15925|Frankfurt Am Main-05-DE,mlp
+42|15933|Frankfurt Am Main-05-DE,mlp
+42|15943|Frankfurt Am Main-05-DE,mlp
+42|15960|Frankfurt Am Main-05-DE,mlp
+42|15965|Frankfurt Am Main-05-DE,mlp
+42|15966|Frankfurt Am Main-05-DE,mlp
+42|15992|London-ENG-UK,mlp
+42|16024|Frankfurt Am Main-05-DE,mlp
+42|16097|Frankfurt Am Main-05-DE,mlp
+42|16164|London-ENG-UK,mlp
+42|16174|London-ENG-UK,mlp
+42|16178|Frankfurt Am Main-05-DE,mlp
+42|16211|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|16265|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|16276|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|16303|London-ENG-UK,mlp
+42|16347|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|16353|London-ENG-UK,mlp
+42|16637|London-ENG-UK,mlp
+42|16839|London-ENG-UK,mlp
+42|17088|London-ENG-UK,mlp
+42|17557|London-ENG-UK,mlp
+42|17660|London-ENG-UK,mlp
+42|18705|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|19151|Ashburn-VA-US,bc|Atlanta-GA-US,bc|Chicago-IL-US,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Palo Alto-CA-US,bc
+42|19551|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20278|Frankfurt Am Main-05-DE,mlp
+42|20459|Frankfurt Am Main-05-DE,mlp
+42|20485|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20504|Frankfurt Am Main-05-DE,mlp
+42|20562|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20596|London-ENG-UK,mlp
+42|20633|Frankfurt Am Main-05-DE,mlp
+42|20640|Frankfurt Am Main-05-DE,mlp
+42|20647|Frankfurt Am Main-05-DE,mlp
+42|20676|Frankfurt Am Main-05-DE,mlp
+42|20681|London-ENG-UK,mlp
+42|20686|Frankfurt Am Main-05-DE,mlp
+42|20712|London-ENG-UK,mlp
+42|20738|London-ENG-UK,mlp
+42|20764|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20773|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20783|Frankfurt Am Main-05-DE,mlp
+42|20804|Frankfurt Am Main-05-DE,mlp
+42|20810|Frankfurt Am Main-05-DE,mlp
+42|20811|Frankfurt Am Main-05-DE,mlp
+42|20847|Frankfurt Am Main-05-DE,mlp
+42|20849|Frankfurt Am Main-05-DE,mlp
+42|20853|Frankfurt Am Main-05-DE,mlp
+42|20860|London-ENG-UK,mlp
+42|20886|Frankfurt Am Main-05-DE,mlp
+42|20915|London-ENG-UK,mlp
+42|20932|Frankfurt Am Main-05-DE,mlp
+42|20940|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|20952|London-ENG-UK,mlp
+42|21011|Frankfurt Am Main-05-DE,mlp
+42|21013|Frankfurt Am Main-05-DE,mlp
+42|21021|Frankfurt Am Main-05-DE,mlp
+42|21219|Frankfurt Am Main-05-DE,mlp
+42|21263|Frankfurt Am Main-05-DE,mlp
+42|21267|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|21336|Frankfurt Am Main-05-DE,mlp
+42|21345|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|21385|Frankfurt Am Main-05-DE,mlp
+42|21413|Frankfurt Am Main-05-DE,mlp
+42|21473|Frankfurt Am Main-05-DE,mlp
+42|21476|Frankfurt Am Main-05-DE,mlp
+42|21859|Frankfurt Am Main-05-DE,mlp
+42|22071|London-ENG-UK,mlp
+42|22355|London-ENG-UK,mlp
+42|22363|London-ENG-UK,mlp
+42|23148|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|23393|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|23576|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|24482|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|24594|London-ENG-UK,mlp
+42|24637|Frankfurt Am Main-05-DE,mlp
+42|24679|Frankfurt Am Main-05-DE,mlp
+42|24724|Frankfurt Am Main-05-DE,mlp
+42|24867|London-ENG-UK,mlp
+42|24916|London-ENG-UK,mlp
+42|24940|Frankfurt Am Main-05-DE,mlp
+42|24953|Frankfurt Am Main-05-DE,mlp
+42|24961|Frankfurt Am Main-05-DE,mlp
+42|24989|Frankfurt Am Main-05-DE,mlp
+42|25061|London-ENG-UK,mlp
+42|25068|Frankfurt Am Main-05-DE,mlp
+42|25074|Frankfurt Am Main-05-DE,mlp
+42|25081|Frankfurt Am Main-05-DE,mlp
+42|25091|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|25152|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|25160|London-ENG-UK,mlp
+42|25178|London-ENG-UK,mlp
+42|25192|Frankfurt Am Main-05-DE,mlp
+42|25220|Frankfurt Am Main-05-DE,mlp
+42|25279|Frankfurt Am Main-05-DE,mlp
+42|25291|Frankfurt Am Main-05-DE,mlp
+42|25369|London-ENG-UK,mlp
+42|25376|London-ENG-UK,mlp
+42|25394|Frankfurt Am Main-05-DE,mlp
+42|25560|Frankfurt Am Main-05-DE,mlp
+42|25818|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|26667|Frankfurt Am Main-05-DE,mlp
+42|27822|London-ENG-UK,mlp
+42|28676|Frankfurt Am Main-05-DE,mlp
+42|28716|Frankfurt Am Main-05-DE,mlp
+42|28725|Frankfurt Am Main-05-DE,mlp
+42|28757|London-ENG-UK,mlp
+42|28846|London-ENG-UK,mlp
+42|28876|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|28917|Frankfurt Am Main-05-DE,mlp,bc|Hoofddorp-07-NL,bc
+42|28920|London-ENG-UK,mlp
+42|29006|London-ENG-UK,mlp
+42|29009|London-ENG-UK,mlp
+42|29014|Frankfurt Am Main-05-DE,mlp
+42|29017|London-ENG-UK,mlp
+42|29037|Frankfurt Am Main-05-DE,mlp
+42|29049|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29066|Frankfurt Am Main-05-DE,mlp
+42|29075|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29076|Frankfurt Am Main-05-DE,mlp
+42|29140|Frankfurt Am Main-05-DE,mlp
+42|29169|Frankfurt Am Main-05-DE,mlp
+42|29208|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29226|Frankfurt Am Main-05-DE,mlp
+42|29314|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29404|Frankfurt Am Main-05-DE,mlp
+42|29452|London-ENG-UK,mlp
+42|29467|Frankfurt Am Main-05-DE,mlp
+42|29527|London-ENG-UK,mlp
+42|29545|Frankfurt Am Main-05-DE,mlp
+42|29606|London-ENG-UK,mlp
+42|29611|London-ENG-UK,mlp
+42|29632|Frankfurt Am Main-05-DE,mlp
+42|29636|London-ENG-UK,mlp
+42|29668|London-ENG-UK,mlp
+42|29697|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29791|London-ENG-UK,mlp
+42|29834|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|29838|Frankfurt Am Main-05-DE,mlp
+42|30071|Atlanta-GA-US,bc|Brisbane-04-AU,bc|Cleveland-OH-US,bc|Los Angeles-CA-US,bc|Paris-A8-FR,bc|Washington D_C_-DC-US,bc
+42|30081|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|30094|Frankfurt Am Main-05-DE,mlp
+42|30740|London-ENG-UK,mlp
+42|30781|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|30827|London-ENG-UK,mlp
+42|30833|Frankfurt Am Main-05-DE,mlp
+42|30844|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|30933|London-ENG-UK,mlp
+42|30975|Frankfurt Am Main-05-DE,mlp
+42|31019|Frankfurt Am Main-05-DE,mlp
+42|31025|Frankfurt Am Main-05-DE,mlp
+42|31027|Frankfurt Am Main-05-DE,mlp
+42|31029|Frankfurt Am Main-05-DE,mlp
+42|31042|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|31059|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|31078|Frankfurt Am Main-05-DE,mlp
+42|31084|London-ENG-UK,mlp
+42|31103|Frankfurt Am Main-05-DE,mlp
+42|31122|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|31133|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|31214|Frankfurt Am Main-05-DE,mlp
+42|31216|Frankfurt Am Main-05-DE,mlp
+42|31242|Frankfurt Am Main-05-DE,mlp
+42|31252|Frankfurt Am Main-05-DE,mlp
+42|31270|London-ENG-UK,mlp
+42|31400|Frankfurt Am Main-05-DE,mlp
+42|31449|Frankfurt Am Main-05-DE,mlp
+42|31472|London-ENG-UK,mlp
+42|31474|London-ENG-UK,mlp
+42|31500|Frankfurt Am Main-05-DE,mlp
+42|31510|Frankfurt Am Main-05-DE,mlp
+42|31529|Frankfurt Am Main-05-DE,mlp
+42|31543|Frankfurt Am Main-05-DE,mlp
+42|31595|London-ENG-UK,mlp
+42|31631|London-ENG-UK,mlp
+42|31638|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|31640|London-ENG-UK,mlp
+42|31655|London-ENG-UK,mlp
+42|31672|London-ENG-UK,mlp
+42|31727|London-ENG-UK,mlp
+42|32590|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|32787|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|32934|London-ENG-UK,mlp
+42|33182|London-ENG-UK,mlp
+42|33763|London-ENG-UK,mlp
+42|33808|Frankfurt Am Main-05-DE,mlp
+42|33843|Frankfurt Am Main-05-DE,mlp
+42|33873|Frankfurt Am Main-05-DE,mlp
+42|33920|London-ENG-UK,mlp
+42|33941|London-ENG-UK,mlp
+42|33986|Frankfurt Am Main-05-DE,mlp
+42|34011|Frankfurt Am Main-05-DE,mlp
+42|34019|Frankfurt Am Main-05-DE,mlp
+42|34119|London-ENG-UK,mlp
+42|34123|Frankfurt Am Main-05-DE,mlp
+42|34177|London-ENG-UK,mlp
+42|34224|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|34245|London-ENG-UK,mlp
+42|34270|London-ENG-UK,mlp
+42|34288|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|34309|London-ENG-UK,mlp
+42|34347|Frankfurt Am Main-05-DE,mlp
+42|34442|London-ENG-UK,mlp
+42|34555|London-ENG-UK,mlp
+42|34569|Frankfurt Am Main-05-DE,mlp
+42|34624|Frankfurt Am Main-05-DE,mlp
+42|34655|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|34695|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|34746|London-ENG-UK,mlp
+42|34781|Frankfurt Am Main-05-DE,mlp
+42|34788|Frankfurt Am Main-05-DE,mlp
+42|34867|Frankfurt Am Main-05-DE,mlp
+42|34928|Frankfurt Am Main-05-DE,mlp
+42|34934|London-ENG-UK,mlp
+42|34953|Frankfurt Am Main-05-DE,mlp
+42|34966|Frankfurt Am Main-05-DE,mlp
+42|35180|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|35205|Frankfurt Am Main-05-DE,mlp
+42|35228|London-ENG-UK,mlp
+42|35244|Frankfurt Am Main-05-DE,mlp
+42|35258|Frankfurt Am Main-05-DE,mlp
+42|35266|London-ENG-UK,mlp
+42|35297|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|35320|Frankfurt Am Main-05-DE,mlp
+42|35366|Frankfurt Am Main-05-DE,mlp
+42|35399|London-ENG-UK,mlp
+42|35432|London-ENG-UK,mlp
+42|35551|London-ENG-UK,mlp
+42|35575|London-ENG-UK,mlp
+42|35592|Frankfurt Am Main-05-DE,mlp
+42|35799|London-ENG-UK,mlp
+42|35805|Frankfurt Am Main-05-DE,mlp
+42|35826|London-ENG-UK,mlp
+42|35834|London-ENG-UK,mlp
+42|36236|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|36351|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|36408|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|36916|London-ENG-UK,mlp
+42|36994|London-ENG-UK,mlp
+42|37009|London-ENG-UK,mlp
+42|37054|London-ENG-UK,mlp
+42|37100|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|37105|London-ENG-UK,mlp
+42|37122|London-ENG-UK,mlp
+42|37179|London-ENG-UK,mlp
+42|37273|London-ENG-UK,mlp
+42|37282|London-ENG-UK,mlp
+42|37353|London-ENG-UK,mlp
+42|37468|Frankfurt Am Main-05-DE,mlp
+42|37497|London-ENG-UK,mlp
+42|37564|London-ENG-UK,mlp
+42|37613|London-ENG-UK,mlp
+42|37662|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|37678|London-ENG-UK,mlp
+42|38016|Frankfurt Am Main-05-DE,mlp
+42|38040|London-ENG-UK,mlp
+42|38082|London-ENG-UK,mlp
+42|38182|London-ENG-UK,mlp
+42|38880|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|39063|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|39090|Frankfurt Am Main-05-DE,mlp
+42|39122|London-ENG-UK,mlp
+42|39179|London-ENG-UK,mlp
+42|39180|Frankfurt Am Main-05-DE,mlp
+42|39202|London-ENG-UK,mlp
+42|39257|Frankfurt Am Main-05-DE,mlp
+42|39279|Frankfurt Am Main-05-DE,mlp
+42|39356|London-ENG-UK,mlp
+42|39386|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|39458|London-ENG-UK,mlp
+42|39522|London-ENG-UK,mlp
+42|39537|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|39702|Frankfurt Am Main-05-DE,mlp
+42|39704|Frankfurt Am Main-05-DE,mlp
+42|39737|Frankfurt Am Main-05-DE,mlp
+42|39905|London-ENG-UK,mlp
+42|39912|Frankfurt Am Main-05-DE,mlp
+42|39915|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|40627|London-ENG-UK,mlp
+42|41000|London-ENG-UK,mlp
+42|41059|Frankfurt Am Main-05-DE,mlp
+42|41230|London-ENG-UK,mlp
+42|41268|Frankfurt Am Main-05-DE,mlp
+42|41289|Frankfurt Am Main-05-DE,mlp
+42|41313|Frankfurt Am Main-05-DE,mlp
+42|41393|London-ENG-UK,mlp
+42|41412|Frankfurt Am Main-05-DE,mlp
+42|41552|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|41678|London-ENG-UK,mlp
+42|41690|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|41692|Frankfurt Am Main-05-DE,mlp
+42|41695|London-ENG-UK,mlp
+42|41811|London-ENG-UK,mlp
+42|41847|London-ENG-UK,mlp
+42|42004|London-ENG-UK,mlp
+42|42010|London-ENG-UK,mlp
+42|42152|London-ENG-UK,mlp
+42|42228|London-ENG-UK,mlp
+42|42344|London-ENG-UK,mlp
+42|42353|London-ENG-UK,mlp
+42|42369|London-ENG-UK,mlp
+42|42385|Frankfurt Am Main-05-DE,mlp
+42|42416|Frankfurt Am Main-05-DE,mlp
+42|42456|Frankfurt Am Main-05-DE,mlp
+42|42459|Frankfurt Am Main-05-DE,mlp
+42|42543|London-ENG-UK,mlp
+42|42587|Frankfurt Am Main-05-DE,mlp
+42|42605|Frankfurt Am Main-05-DE,mlp
+42|42652|Frankfurt Am Main-05-DE,mlp
+42|42689|London-ENG-UK,mlp
+42|42708|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|42831|London-ENG-UK,mlp
+42|42861|Frankfurt Am Main-05-DE,mlp
+42|42965|Frankfurt Am Main-05-DE,mlp
+42|42973|London-ENG-UK,mlp
+42|43013|London-ENG-UK,mlp
+42|43219|London-ENG-UK,mlp
+42|43323|London-ENG-UK,mlp
+42|43341|Frankfurt Am Main-05-DE,mlp
+42|43350|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|43376|Frankfurt Am Main-05-DE,mlp
+42|43404|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|43407|Frankfurt Am Main-05-DE,mlp
+42|43531|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|43561|Frankfurt Am Main-05-DE,mlp
+42|43646|Frankfurt Am Main-05-DE,mlp
+42|43727|Frankfurt Am Main-05-DE,mlp
+42|43996|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|44020|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|44050|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|44053|Frankfurt Am Main-05-DE,mlp
+42|44066|Frankfurt Am Main-05-DE,mlp
+42|44217|Frankfurt Am Main-05-DE,mlp
+42|44356|Frankfurt Am Main-05-DE,mlp
+42|44444|Frankfurt Am Main-05-DE,mlp
+42|44611|London-ENG-UK,mlp
+42|44646|London-ENG-UK,mlp
+42|44654|Frankfurt Am Main-05-DE,mlp
+42|44684|London-ENG-UK,mlp
+42|44735|London-ENG-UK,mlp
+42|44943|Frankfurt Am Main-05-DE,mlp
+42|44974|Frankfurt Am Main-05-DE,mlp
+42|44981|London-ENG-UK,mlp
+42|45177|London-ENG-UK,mlp
+42|45204|Frankfurt Am Main-05-DE,mlp
+42|45352|Frankfurt Am Main-05-DE,mlp
+42|45474|London-ENG-UK,mlp
+42|45758|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|46786|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|47169|Frankfurt Am Main-05-DE,mlp
+42|47195|Frankfurt Am Main-05-DE,mlp
+42|47215|Frankfurt Am Main-05-DE,mlp
+42|47297|Frankfurt Am Main-05-DE,mlp
+42|47328|Frankfurt Am Main-05-DE,mlp
+42|47447|Frankfurt Am Main-05-DE,mlp
+42|47480|London-ENG-UK,mlp
+42|47541|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|47622|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|47631|London-ENG-UK,mlp
+42|47692|Frankfurt Am Main-05-DE,mlp
+42|47704|London-ENG-UK,mlp
+42|47762|London-ENG-UK,mlp
+42|47764|Frankfurt Am Main-05-DE,mlp
+42|47869|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|47872|Frankfurt Am Main-05-DE,mlp
+42|47927|Frankfurt Am Main-05-DE,mlp
+42|47998|London-ENG-UK,mlp
+42|48101|London-ENG-UK,mlp
+42|48166|Frankfurt Am Main-05-DE,mlp
+42|48173|Frankfurt Am Main-05-DE,mlp
+42|48200|Frankfurt Am Main-05-DE,mlp
+42|48293|Frankfurt Am Main-05-DE,mlp
+42|48297|Frankfurt Am Main-05-DE,mlp
+42|48362|Frankfurt Am Main-05-DE,mlp
+42|48484|Frankfurt Am Main-05-DE,mlp
+42|48519|London-ENG-UK,mlp
+42|48526|Frankfurt Am Main-05-DE,mlp
+42|48559|Frankfurt Am Main-05-DE,mlp
+42|48610|London-ENG-UK,mlp
+42|48961|London-ENG-UK,mlp
+42|48973|London-ENG-UK,mlp
+42|49024|Frankfurt Am Main-05-DE,mlp
+42|49102|Frankfurt Am Main-05-DE,mlp
+42|49136|Frankfurt Am Main-05-DE,mlp
+42|49218|Frankfurt Am Main-05-DE,mlp
+42|49289|London-ENG-UK,mlp
+42|49375|London-ENG-UK,mlp
+42|49405|Frankfurt Am Main-05-DE,mlp
+42|49415|London-ENG-UK,mlp
+42|49544|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|49572|London-ENG-UK,mlp
+42|49605|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|49678|Frankfurt Am Main-05-DE,mlp
+42|49854|Frankfurt Am Main-05-DE,mlp
+42|50010|Frankfurt Am Main-05-DE,mlp
+42|50056|London-ENG-UK,mlp
+42|50245|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|50289|Frankfurt Am Main-05-DE,mlp
+42|50300|London-ENG-UK,mlp
+42|50311|London-ENG-UK,mlp
+42|50316|London-ENG-UK,mlp
+42|50343|Frankfurt Am Main-05-DE,mlp
+42|50384|Frankfurt Am Main-05-DE,mlp
+42|50468|London-ENG-UK,mlp
+42|50469|Frankfurt Am Main-05-DE,mlp
+42|50472|Frankfurt Am Main-05-DE,mlp
+42|50606|London-ENG-UK,mlp
+42|50618|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|50629|Frankfurt Am Main-05-DE,mlp
+42|50673|Frankfurt Am Main-05-DE,mlp
+42|50837|Frankfurt Am Main-05-DE,mlp
+42|50923|Frankfurt Am Main-05-DE,mlp
+42|50957|London-ENG-UK,mlp
+42|51028|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|51055|London-ENG-UK,mlp
+42|51159|London-ENG-UK,mlp
+42|51167|Frankfurt Am Main-05-DE,mlp
+42|51205|London-ENG-UK,mlp
+42|51343|Frankfurt Am Main-05-DE,mlp
+42|51409|London-ENG-UK,mlp
+42|51468|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|51483|Frankfurt Am Main-05-DE,mlp
+42|51531|Frankfurt Am Main-05-DE,mlp
+42|51561|London-ENG-UK,mlp
+42|51782|London-ENG-UK,mlp
+42|51795|Frankfurt Am Main-05-DE,mlp
+42|51823|London-ENG-UK,mlp
+42|51852|London-ENG-UK,mlp
+42|51918|London-ENG-UK,mlp
+42|51945|London-ENG-UK,mlp
+42|52041|Frankfurt Am Main-05-DE,mlp
+42|52075|London-ENG-UK,mlp
+42|52320|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|53264|Frankfurt Am Main-05-DE,mlp
+42|55195|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|55819|London-ENG-UK,mlp
+42|56329|London-ENG-UK,mlp
+42|56357|Frankfurt Am Main-05-DE,mlp
+42|56460|London-ENG-UK,mlp
+42|56478|London-ENG-UK,mlp
+42|56595|London-ENG-UK,mlp
+42|56654|Frankfurt Am Main-05-DE,mlp
+42|56665|Frankfurt Am Main-05-DE,mlp
+42|56704|London-ENG-UK,mlp
+42|56730|London-ENG-UK,mlp
+42|56990|London-ENG-UK,mlp
+42|57023|London-ENG-UK,mlp
+42|57068|Frankfurt Am Main-05-DE,mlp
+42|57099|London-ENG-UK,mlp
+42|57119|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|57262|London-ENG-UK,mlp
+42|57315|London-ENG-UK,mlp
+42|57344|Frankfurt Am Main-05-DE,mlp
+42|57356|London-ENG-UK,mlp
+42|57463|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|57724|Frankfurt Am Main-05-DE,mlp
+42|57731|London-ENG-UK,mlp
+42|58002|Frankfurt Am Main-05-DE,mlp
+42|58010|Frankfurt Am Main-05-DE,mlp
+42|58226|London-ENG-UK,mlp
+42|58243|Frankfurt Am Main-05-DE,mlp
+42|58273|London-ENG-UK,mlp
+42|58453|Frankfurt Am Main-05-DE,mlp
+42|58511|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|59410|London-ENG-UK,mlp
+42|59455|London-ENG-UK,mlp
+42|59507|Frankfurt Am Main-05-DE,mlp
+42|59605|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|59675|Frankfurt Am Main-05-DE,mlp
+42|59933|London-ENG-UK,mlp
+42|60157|London-ENG-UK,mlp
+42|60171|London-ENG-UK,mlp
+42|60280|Frankfurt Am Main-05-DE,mlp
+42|60294|Frankfurt Am Main-05-DE,mlp
+42|60404|Frankfurt Am Main-05-DE,mlp
+42|60447|London-ENG-UK,mlp
+42|60610|London-ENG-UK,mlp
+42|60764|Frankfurt Am Main-05-DE,mlp
+42|60868|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|60899|London-ENG-UK,mlp
+42|61049|London-ENG-UK,mlp
+42|61081|London-ENG-UK,mlp
+42|61124|London-ENG-UK,mlp
+42|61215|London-ENG-UK,mlp
+42|61231|London-ENG-UK,mlp
+42|61244|Frankfurt Am Main-05-DE,mlp
+42|61266|Frankfurt Am Main-05-DE,mlp
+42|61317|Frankfurt Am Main-05-DE,mlp
+42|61337|London-ENG-UK,mlp
+42|61438|Frankfurt Am Main-05-DE,mlp
+42|61955|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|62023|Frankfurt Am Main-05-DE,mlp
+42|62044|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|62240|London-ENG-UK,mlp
+42|62244|London-ENG-UK,mlp
+42|62267|London-ENG-UK,mlp
+42|62325|Frankfurt Am Main-05-DE,mlp
+42|62336|Frankfurt Am Main-05-DE,mlp
+42|62363|Frankfurt Am Main-05-DE,mlp
+42|62955|Frankfurt Am Main-05-DE,mlp
+42|63199|Frankfurt Am Main-05-DE,mlp
+42|63949|Frankfurt Am Main-05-DE,mlp
+42|64049|London-ENG-UK,mlp
+42|132591|London-ENG-UK,mlp
+42|132876|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|134145|London-ENG-UK,mlp
+42|196844|Frankfurt Am Main-05-DE,mlp
+42|196922|Frankfurt Am Main-05-DE,mlp
+42|196925|Frankfurt Am Main-05-DE,mlp
+42|197000|London-ENG-UK,mlp
+42|197071|Frankfurt Am Main-05-DE,mlp
+42|197264|Frankfurt Am Main-05-DE,mlp
+42|197426|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|197540|Frankfurt Am Main-05-DE,mlp
+42|197669|London-ENG-UK,mlp
+42|197913|London-ENG-UK,mlp
+42|197981|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|197999|Frankfurt Am Main-05-DE,mlp
+42|198018|Frankfurt Am Main-05-DE,mlp
+42|198047|London-ENG-UK,mlp
+42|198313|London-ENG-UK,mlp
+42|198335|Frankfurt Am Main-05-DE,mlp
+42|198554|London-ENG-UK,mlp
+42|198570|Frankfurt Am Main-05-DE,mlp
+42|198719|London-ENG-UK,mlp
+42|198726|Frankfurt Am Main-05-DE,mlp
+42|198736|London-ENG-UK,mlp
+42|198781|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|198831|London-ENG-UK,mlp
+42|198930|Frankfurt Am Main-05-DE,mlp
+42|199121|London-ENG-UK,mlp
+42|199204|London-ENG-UK,mlp
+42|199335|London-ENG-UK,mlp
+42|199524|Frankfurt Am Main-05-DE,mlp
+42|199599|Frankfurt Am Main-05-DE,mlp
+42|199659|London-ENG-UK,mlp
+42|199670|London-ENG-UK,mlp
+42|199706|London-ENG-UK,mlp
+42|199790|Frankfurt Am Main-05-DE,mlp
+42|199841|Frankfurt Am Main-05-DE,mlp
+42|200187|Frankfurt Am Main-05-DE,mlp
+42|200612|Frankfurt Am Main-05-DE,mlp|London-ENG-UK,mlp
+42|200700|London-ENG-UK,mlp
+42|201053|Frankfurt Am Main-05-DE,mlp
+42|201126|London-ENG-UK,mlp
+42|201213|Frankfurt Am Main-05-DE,mlp
+42|201214|Frankfurt Am Main-05-DE,mlp
+42|201229|Frankfurt Am Main-05-DE,mlp
+42|201701|Frankfurt Am Main-05-DE,mlp
+42|201764|Frankfurt Am Main-05-DE,mlp
+42|202109|London-ENG-UK,mlp
+42|202112|London-ENG-UK,mlp
+42|202222|London-ENG-UK,mlp
+42|203416|London-ENG-UK,mlp
+42|203421|London-ENG-UK,mlp
+42|203507|Frankfurt Am Main-05-DE,mlp
+42|203565|Frankfurt Am Main-05-DE,mlp
+42|203724|Frankfurt Am Main-05-DE,mlp
+42|203851|London-ENG-UK,mlp
+42|203923|Frankfurt Am Main-05-DE,mlp
+42|203959|Frankfurt Am Main-05-DE,mlp
+42|203968|Frankfurt Am Main-05-DE,mlp
+42|204264|London-ENG-UK,mlp
+42|327825|London-ENG-UK,mlp
+46|3356|Newark-NJ-US,bc
+47|7575|Seattle-WA-US,bc
+55|3356|Philadelphia-PA-US,bc
+57|3356|Bloomington-MN-US,bc
+57|4181|Bloomington-MN-US,bc
+57|6939|Bloomington-MN-US,lg
+59|4181|Madison-WI-US,bc
+59|6939|Madison-WI-US,lg
+62|3356|Dallas-TX-US,bc|Houston-TX-US,bc|Phoenix-AZ-US,bc
+62|6939|Dallas-TX-US,lg
+64|2914|Sterling-VA-US,bc
+70|3356|Washington D_C_-DC-US,bc
+72|286|Hoofddorp-07-NL,bc
+77|3356|Baltimore-MD-US,bc
+77|12989|Washington D_C_-DC-US,bc
+78|3356|Atlanta-GA-US,bc
+81|3356|Charlotte-NC-US,bc|Raleigh-NC-US,bc
+88|6939|New York City-NY-US,lg
+97|2914|Houston-TX-US,bc|London-ENG-UK,bc
+98|174|New York-NY-US,edge
+98|3356|New York-NY-US,edge|Newark-NJ-US,bc
+98|3549|New York-NY-US,edge
+101|2914|Seattle-WA-US,bc
+101|3356|Seattle-WA-US,bc
+101|3491|Seattle-WA-US,bc
+101|6939|Portland-OR-US,lg|Seattle-WA-US,lg
+101|7575|Seattle-WA-US,bc
+101|11404|Portland-OR-US,bc
+101|12989|Seattle-WA-US,bc
+101|30071|Cleveland-OH-US,bc
+109|286|Almere Stad-16-NL,bc
+109|1239|San Jose-CA-US,bc
+109|2914|Tokyo-40-JP,bc
+109|3356|Dallas-TX-US,bc|Raleigh-NC-US,bc
+109|6939|Ashburn-VA-US,lg|Dallas-TX-US,lg|Hoofddorp-07-NL,lg|San Jose-CA-US,lg
+111|3356|Boston-MA-US,bc
+112|4589|Hoofddorp-07-NL,bc
+112|6667|Hoofddorp-07-NL,bc
+112|6939|Berlin-16-DE,lg|Dublin-L-IE,lg|Hoofddorp-07-NL,lg|Paris-A8-FR,lg
+112|12989|Hoofddorp-07-NL,bc
+112|13030|Paris-A8-FR,bc
+112|27552|Boston-MA-US,bc
+112|28917|Hoofddorp-07-NL,bc
+112|30781|Paris-A8-FR,bc
+116|3356|Newark-NJ-US,bc
+137|3303|Milano-09-IT,bc
+137|3356|Milano-09-IT,bc
+137|4589|Milano-09-IT,bc
+137|6730|Milano-09-IT,bc
+137|6939|Milano-09-IT,lg|Rome-07-IT,lg
+137|12779|Milano-09-IT,bc
+153|1491|Dallas-TX-US,edge
+154|27067|Vicksburg-MS-US,edge
+156|3356|Boston-MA-US,bc
+157|1239|London-ENG-UK,bc
+161|3356|Dallas-TX-US,bc
+166|3356|Washington D_C_-DC-US,bc
+173|6939|Tokyo-40-JP,lg
+174|286|Ashburn-VA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Miami-FL-US,bc|New York City-NY-US,bc|Paris-A8-FR,bc
+174|1764|Vienna-09-AT,bc
+174|2914|Atlanta-GA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|Houston-TX-US,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Madrid-29-ES,bc|Miami-FL-US,bc|New York City-NY-US,bc|Paris-A8-FR,bc|Santa Clara-CA-US,bc|Seattle-WA-US,bc|Sterling-VA-US,bc
+174|3257|Atlanta-GA-US,bc|Chicago-IL-US,bc|Dallas-TX-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Madrid-29-ES,bc|Miami-FL-US,bc|Milano-09-IT,bc|Mississauga-08-CA,bc|New York City-NY-US,bc|Paris-A8-FR,bc|San Jose-CA-US,bc|Seattle-WA-US,bc|Vienna-09-AT,bc|Washington D_C_-DC-US,bc
+174|3356|Atlanta-GA-US,bc|Dallas-TX-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Paris-A8-FR,bc|San Jose-CA-US,bc|Seattle-WA-US,bc|Stockholm-26-SE,bc|Vienna-09-AT,bc|Washington D_C_-DC-US,bc
+174|3491|Chicago-IL-US,bc|Dallas-TX-US,bc|Hoofddorp-07-NL,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|San Jose-CA-US,bc|Seattle-WA-US,bc
+174|5511|Paris-A8-FR,bc
+174|6453|Ashburn-VA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|London-ENG-UK,bc|New York City-NY-US,bc|Paris-A8-FR,bc|Sacramento-CA-US,bc|San Jose-CA-US,bc
+174|6667|Frankfurt Am Main-05-DE,bc
+174|6762|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|Miami-FL-US,bc|New York City-NY-US,bc|Palo Alto-CA-US,bc|Paris-A8-FR,bc
+174|13101|Frankfurt Am Main-05-DE,bc
+174|19151|Atlanta-GA-US,bc|Chicago-IL-US,bc|Dallas-TX-US,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc
+188|3356|Dallas-TX-US,bc
+209|286|Ashburn-VA-US,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|New York City-NY-US,bc
+209|2914|Atlanta-GA-US,bc|Chicago-IL-US,bc|Houston-TX-US,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Santa Clara-CA-US,bc|Seattle-WA-US,bc|Sterling-VA-US,bc|Tokyo-40-JP,bc
+209|3257|Atlanta-GA-US,bc|Chek Lap Kok--HK,bc|Chicago-IL-US,bc|Dallas-TX-US,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|Palo Alto-CA-US,bc|San Jose-CA-US,bc|Seattle-WA-US,bc|Washington D_C_-DC-US,bc
+209|3303|Ashburn-VA-US,bc|New York City-NY-US,bc
+209|3356|Dallas-TX-US,bc|Denver-CO-US,bc|Frankfurt Am Main-05-DE,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|New York City-NY-US,bc|San Jose-CA-US,bc|Seattle-WA-US,bc
+209|3491|Atlanta-GA-US,bc|Chicago-IL-US,bc|Dallas-TX-US,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|San Jose-CA-US,bc|Seattle-WA-US,bc
+209|6453|Ashburn-VA-US,bc|Chicago-IL-US,bc|Los Angeles-CA-US,bc|Miami-FL-US,bc|San Jose-CA-US,bc|Seattle-WA-US,bc|Tokyo-40-JP,bc
+209|6762|Ashburn-VA-US,bc|Atlanta-GA-US,bc|Chicago-IL-US,bc|Frankfurt Am Main-05-DE,bc|London-ENG-UK,bc|Los Angeles-CA-US,bc|Palo Alto-CA-US,bc
+209|6939|Ashburn-VA-US,lg|Atlanta-GA-US,lg|Dallas-TX-US,lg|Denver-CO-US,lg|Los Angeles-CA-US,lg|Miami-FL-US,lg|New York City-NY-US,lg|Seattle-WA-US,lg
+224|6667|Ullensaker-02-NO,bc
+225|3356|Richmond-VA-US,bc
+226|2914|Los Angeles-CA-US,bc
+226|6939|Los Angeles-CA-US,lg
+226|7575|Los Angeles-CA-US,bc|Seattle-WA-US,bc
+226|12989|Los Angeles-CA-US,bc
+226|13030|Los Angeles-CA-US,bc
+226|19151|Los Angeles-CA-US,bc
+226|30071|Los Angeles-CA-US,bc
+234|2914|Chicago-IL-US,bc
+237|2914|Chicago-IL-US,bc
+237|3257|Chicago-IL-US,bc
+237|3303|Chicago-IL-US,bc
+237|4181|Chicago-IL-US,bc
+237|6939|Chicago-IL-US,lg
+237|19151|Chicago-IL-US,bc
+243|1239|London-ENG-UK,bc
+243|3356|Orlando-FL-US,bc
+243|6453|Changi-04-SG,bc
+249|204044|Gosport-HAM-UK,edge
+250|286|Berlin-16-DE,bc
+250|6939|Berlin-16-DE,lg|D_Sseldorf-NW-DE,lg|Fuhlsb_Ttel-HH-DE,lg|Stockholm-26-SE,lg
+251|286|Frankfurt Am Main-05-DE,bc
+251|4589|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc
+251|6453|Frankfurt Am Main-05-DE,bc
+251|6667|Frankfurt Am Main-05-DE,bc
+251|6762|Frankfurt Am Main-05-DE,bc|London-ENG-UK,bc|Vienna-09-AT,bc
+251|6939|Copenhagen-17-DK,lg|D_Sseldorf-NW-DE,lg|Frankfurt Am Main-05-DE,lg|Hoofddorp-07-NL,lg|London-ENG-UK,lg
+251|13030|Copenhagen-17-DK,bc|Frankfurt Am Main-05-DE,bc|Hoofddorp-07-NL,bc|London-ENG-UK,bc|Vienna-09-AT,bc
+251|28917|Frankfurt Am Main-05-DE,bc
+260|1103|London-ENG-UK,mlp
+260|1267|London-ENG-UK,mlp
+260|1290|London-ENG-UK,mlp
+260|1547|London-ENG-UK,mlp
+260|1680|London-ENG-UK,mlp
+260|2110|London-ENG-UK,mlp
+260|2134|London-ENG-UK,mlp
+260|2484|London-ENG-UK,mlp
+260|2611|London-ENG-UK,mlp
+260|2635|London-ENG-UK,mlp
+260|2906|London-ENG-UK,mlp
+260|3213|London-ENG-UK,mlp
+260|3257|Hoofddorp-07-NL,bc|New York City-NY-US,bc
+260|3741|London-ENG-UK,mlp
+260|3856|London-ENG-UK,mlp
+260|4004|London-ENG-UK,mlp
+260|4589|Slough-ENG-UK,bc
+260|4637|London-ENG-UK,mlp
+260|4651|London-ENG-UK,mlp
+260|4800|London-ENG-UK,mlp
+260|5459|London-ENG-UK,mlp
+260|5503|London-ENG-UK,mlp
+260|5552|London-ENG-UK,mlp
+260|5564|London-ENG-UK,mlp
+260|5631|London-ENG-UK,mlp
+260|5713|London-ENG-UK,mlp
+260|6619|London-ENG-UK,mlp
+260|6643|London-ENG-UK,mlp
+260|6648|London-ENG-UK,mlp
+260|6661|London-ENG-UK,mlp
+260|6663|London-ENG-UK,mlp
+260|6677|London-ENG-UK,mlp
+260|6717|London-ENG-UK,mlp
+260|6762|Hoofddorp-07-NL,bc|New York City-NY-US,bc
+260|6866|London-ENG-UK,mlp
+260|6939|Hoofddorp-07-NL,lg|London-ENG-UK,mlp,lg|New York City-NY-US,lg
+260|7160|London-ENG-UK,mlp
+260|7342|London-ENG-UK,mlp
+260|7642|London-ENG-UK,mlp
+260|7713|London-ENG-UK,mlp
+260|8220|London-ENG-UK,mlp
+260|8262|London-ENG-UK,mlp
+260|8282|London-ENG-UK,mlp
+260|8301|London-ENG-UK,mlp
+260|8304|London-ENG-UK,mlp
+260|8309|London-ENG-UK,mlp
+260|8400|London-ENG-UK,mlp
+260|8403|London-ENG-UK,mlp
+260|8422|London-ENG-UK,mlp
+260|8468|London-ENG-UK,mlp
+260|8473|London-ENG-UK,mlp
+260|8530|London-ENG-UK,mlp
+260|8544|London-ENG-UK,mlp
+260|8551|London-ENG-UK,mlp
+260|8674|London-ENG-UK,mlp
+260|8681|London-ENG-UK,mlp
+260|8683|London-ENG-UK,mlp
+260|8732|London-ENG-UK,mlp
+260|8789|London-ENG-UK,mlp
+260|8851|London-ENG-UK,mlp
+260|8866|London-ENG-UK,mlp
+260|8881|London-ENG-UK,mlp
+260|8897|London-ENG-UK,mlp
+260|8902|London-ENG-UK,mlp
+260|8950|London-ENG-UK,mlp
+260|9029|London-ENG-UK,mlp
+260|9036|London-ENG-UK,mlp
+260|9050|London-ENG-UK,mlp
+260|9116|London-ENG-UK,mlp
+260|9145|London-ENG-UK,mlp
+260|9304|London-ENG-UK,mlp
+260|9498|London-ENG-UK,mlp
+260|9505|London-ENG-UK,mlp
+260|9583|London-ENG-UK,mlp
+260|10026|London-ENG-UK,mlp
+260|10310|London-ENG-UK,mlp
+260|10474|London-ENG-UK,mlp
+260|11845|London-ENG-UK,mlp
+260|12200|London-ENG-UK,mlp
+260|12290|London-ENG-UK,mlp
+260|12337|London-ENG-UK,mlp
+260|12399|London-ENG-UK,mlp
+260|12496|London-ENG-UK,mlp
+260|12519|London-ENG-UK,mlp
+260|12576|London-ENG-UK,mlp
+260|12578|London-ENG-UK,mlp
+260|12615|London-ENG-UK,mlp
+260|12713|London-ENG-UK,mlp
+260|12759|London-ENG-UK,mlp
+260|12779|London-ENG-UK,mlp
+260|12850|London-ENG-UK,mlp
+260|12969|London-ENG-UK,mlp
+260|12989|Hoofddorp-07-NL,bc|London-ENG-UK,mlp,bc
+260|13005|London-ENG-UK,mlp
+260|13009|London-ENG-UK,mlp
+260|13030|Hoofddorp-07-NL,bc|London-ENG-UK,bc|New York City-NY-US,bc
+260|13122|London-ENG-UK,mlp
+260|13208|London-ENG-UK,mlp
+260|13238|London-ENG-UK,mlp
+260|13285|London-ENG-UK,mlp
+260|13335|London-ENG-UK,mlp
+260|13414|London-ENG-UK,mlp
+260|13768|London-ENG-UK,mlp
+260|14537|London-ENG-UK,mlp
+260|15133|London-ENG-UK,mlp
+260|15169|London-ENG-UK,mlp
+260|15399|London-ENG-UK,mlp
+260|15533|London-ENG-UK,mlp
+260|15547|London-ENG-UK,mlp
+260|15589|London-ENG-UK,mlp
+260|15692|London-ENG-UK,mlp
+260|15695|London-ENG-UK,mlp
+260|15802|London-ENG-UK,mlp
+260|15839|London-ENG-UK,mlp
+260|15992|London-ENG-UK,mlp
+260|16164|London-ENG-UK,mlp
+260|16174|London-ENG-UK,mlp
+260|16211|London-ENG-UK,mlp
+260|16265|London-ENG-UK,mlp
+260|16276|London-ENG-UK,mlp
+260|16303|London-ENG-UK,mlp
+260|16347|London-ENG-UK,mlp
+260|16353|London-ENG-UK,mlp
+260|16637|London-ENG-UK,mlp
+260|16839|London-ENG-UK,mlp
+260|17088|London-ENG-UK,mlp
+260|17557|London-ENG-UK,mlp
+260|17660|London-ENG-UK,mlp
+260|18705|London-ENG-UK,mlp
+260|19551|London-ENG-UK,mlp
+260|20485|London-ENG-UK,mlp
+260|20562|London-ENG-UK,mlp
+260|20596|London-ENG-UK,mlp
+260|20681|London-ENG-UK,mlp
+260|20712|London-ENG-UK,mlp
+260|20738|London-ENG-UK,mlp
+260|20764|London-ENG-UK,mlp
+260|20773|London-ENG-UK,mlp
+260|20860|London-ENG-UK,mlp
+260|20915|London-ENG-UK,mlp
+260|20940|London-ENG-UK,mlp
+260|20952|London-ENG-UK,mlp
+260|21267|London-ENG-UK,mlp
+260|21345|London-ENG-UK,mlp
+260|22071|London-ENG-UK,mlp
+260|22355|London-ENG-UK,mlp
+260|22363|London-ENG-UK,mlp
+260|23148|London-ENG-UK,mlp
+260|23393|London-ENG-UK,mlp
+260|23576|London-ENG-UK,mlp
+260|24482|London-ENG-UK,mlp
+260|24594|London-ENG-UK,mlp
+260|24867|London-ENG-UK,mlp
+260|24916|London-ENG-UK,mlp
+260|25061|London-ENG-UK,mlp
+260|25091|London-ENG-UK,mlp
+260|25152|London-ENG-UK,mlp
+260|25160|London-ENG-UK,mlp
+260|25178|London-ENG-UK,mlp
+260|25369|London-ENG-UK,mlp
+260|25376|London-ENG-UK,mlp
+260|25818|London-ENG-UK,mlp
+260|27822|London-ENG-UK,mlp
+260|28757|London-ENG-UK,mlp
+260|28846|London-ENG-UK,mlp
+260|28876|London-ENG-UK,mlp
+260|28917|Hoofddorp-07-NL,bc
+260|28920|London-ENG-UK,mlp
+260|29006|London-ENG-UK,mlp
+260|29009|London-ENG-UK,mlp
+260|29017|London-ENG-UK,mlp
+260|29049|London-ENG-UK,mlp
+260|29075|London-ENG-UK,mlp
+260|29208|London-ENG-UK,mlp
+260|29314|London-ENG-UK,mlp
+260|29452|London-ENG-UK,mlp
+260|29527|London-ENG-UK,mlp
+260|29606|London-ENG-UK,mlp
+260|29611|London-ENG-UK,mlp
+260|29636|London-ENG-UK,mlp
+260|29668|London-ENG-UK,mlp
+260|29697|London-ENG-UK,mlp
+260|29791|London-ENG-UK,mlp
+260|29834|London-ENG-UK,mlp
+260|30081|London-ENG-UK,mlp
+260|30740|London-ENG-UK,mlp
+260|30781|London-ENG-UK,mlp
+260|30827|London-ENG-UK,mlp
+260|30844|London-ENG-UK,mlp
+260|30933|London-ENG-UK,mlp
+260|31042|London-ENG-UK,mlp
+260|31059|London-ENG-UK,mlp
+260|31084|London-ENG-UK,mlp
+260|31122|London-ENG-UK,mlp
+260|31133|London-ENG-UK,mlp
+260|31270|London-ENG-UK,mlp
+260|31472|London-ENG-UK,mlp
+260|31474|London-ENG-UK,mlp
+260|31595|London-ENG-UK,mlp
+260|31631|London-ENG-UK,mlp
+260|31638|London-ENG-UK,mlp
+260|31640|London-ENG-UK,mlp
+260|31655|London-ENG-UK,mlp
+260|31672|London-ENG-UK,mlp
+260|31727|London-ENG-UK,mlp
+260|32590|London-ENG-UK,mlp
+260|32787|London-ENG-UK,mlp
+260|32934|London-ENG-UK,mlp
+260|33182|London-ENG-UK,mlp
+260|33763|London-ENG-UK,mlp
+260|33920|London-ENG-UK,mlp
