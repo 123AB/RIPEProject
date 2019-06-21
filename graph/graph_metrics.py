@@ -10,6 +10,32 @@ import networkx as nx
 import time
 import random
 
+def node_count(G):
+    return len(G.nodes)
+
+def edge_count(G):
+    return len(G.edges)
+
+#Number of multiedges in G
+def multi_edges(G):
+    pair_count = dict()
+    for n1, n2 in G.edges():
+        if (n1.norm_id, n2.norm_id) in pair_count.keys():
+            pair_count[n1.norm_id, n2.norm_id] = pair_count[n1.norm_id, n2.norm_id] + 1
+        elif (n2.norm_id, n1.norm_id) in pair_count.keys():
+            pair_count[n2.norm_id, n1.norm_id] = pair_count[n2.norm_id, n1.norm_id] + 1
+        else:
+            pair_count[n1.norm_id, n2.norm_id] = 1
+    
+    mult_count = 0
+    for k, v in pair_count.items():
+        if v > 1:
+            mult_count = mult_count + (v - 1)
+    return mult_count
+
+def avg_degree(G):
+    return 2 * len(G.edges) / len(G.nodes)
+
 def assortativity(G):
     if hasattr(G, "assortativity"):
         print("Assortativity = {:.5f}. Returned cached value.".format(G.assortativity))

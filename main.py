@@ -14,34 +14,33 @@ import numpy as np
 #reload?
 import visualizer.drawmap as vis
 import datareader.reader as dr
-
 import graph.graph_functions as gf
 import graph.graph_metrics as gm
 
 #Load graph data
-G0 = dr.reload_graph("G0")
+G0 = dr.load_pkl("G0")
 if G0 == False:
     graph_data_path = "data\\201603.as-rel-geo.txt"
     G0 = dr.load_graph_data(graph_data_path)
     gf.nid_to_node(G0)
-    dr.save_graph(G0, "G0")
+    dr.save_pkl(G0, "G0")
 
 #Load location data
 loc_data_path = "data\\201603.locations.txt"
 coords, cts = dr.load_loc_data(loc_data_path)
 
 #Compute distances between cities
-G0_distances = dr.reload_graph("G0_distances")
+G0_distances = dr.load_pkl("G0_distances")
 if G0_distances == False:
     G0_distances = dr.calculate_distances(coords, cts)
-    dr.save_graph(G0_distances, "G0_distances")
+    dr.save_pkl(G0_distances, "G0_distances")
 
 #Load biggest subgraph
-G1 = dr.reload_graph("G1")
+G1 = dr.load_pkl("G1")
 if G1 == False:
     G1 = gf.largest_subgraph(G0)
     gf.nid_to_node(G1)
-    dr.save_graph(G1, "G1")
+    dr.save_pkl(G1, "G1")
 
 #Dictionary to convert normalized ID number to list index
 #norm_id_to_index_dict = dict()
@@ -128,6 +127,5 @@ print("Number of links: " + str(n_edges))
 print("Number of locations: " + str(n_locs))
 
 #dr.get_distance("Amsterdam-NH-NL", "New York City-NY-US", G2_distances)
-
 
 #Save graph

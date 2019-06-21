@@ -10,6 +10,7 @@ from node_objects.node import Node
 
 import pickle
 import os
+import shutil
 local_data_path = os.path.dirname(os.path.realpath(__file__)) + "\\pkls\\"
 
 import numpy as np
@@ -156,22 +157,46 @@ def haversine_km(coords_1, coords_2):
 #Moved to graph_functions.py
 
 #Serialize graph object to binary data
-#Note: make sure pkls folder exists
+#Works with any object
 #https://stackoverflow.com/questions/38233515/pickle-file-import-error?rq=1
-def save_graph(graph, name: str):
+def save_pkl(graph, name: str):
+    #Create path if it doesnt exist already
+    if not os.path.exists(local_data_path):
+        os.makedirs(local_data_path)
     file_location = '{}{}.pkl'.format(local_data_path, name)
-    with open(file_location, 'wb') as output:
-        pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
-    print("Graph saved to {}".format(file_location))
+    #Make a backup so we can restore in case of a pickling error.
+    backup_location = '{}{}_backup.pkl'.format(local_data_path, name)
+    if os.path.exists(file_location):
+        shutil.copy(file_location, backup_location)
+    #Try to pickle
+    try:
+        with open(file_location, 'wb') as output:
+            pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
+    except pickle.PicklingError as e:
+        print("PicklingError: " + str(e))
+        print("Object not saved.")
+        #Restore from backup if available, otherwise remove the garbage
+        if os.path.exists(backup_location):
+            shutil.copy(backup_location, file_location)
+            os.remove(backup_location)
+        else:
+            os.remove(file_location)
+        return
+    print("Object saved to {}".format(file_location))
+    #Remove backup if it exists
+    if os.path.exists(backup_location):
+        os.remove(backup_location)
+    
 
 #Load graph from file
-def reload_graph(name: str):
+def load_pkl(name: str):
     file_location = '{}{}.pkl'.format(local_data_path, name)
     try:
         with open(file_location, 'rb') as input:
             graph = pickle.load(input)
-            print("Loaded graph from {}".format(file_location))
+            print("Object loaded from {}".format(file_location))
     except FileNotFoundError:
         print("File not found: {}".format(file_location))
+        print("Object not loaded.")
         return False
     return graph
