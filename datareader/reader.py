@@ -159,7 +159,40 @@ def haversine_km(coords_1, coords_2):
 #Serialize graph object to binary data
 #Works with any object
 #https://stackoverflow.com/questions/38233515/pickle-file-import-error?rq=1
+#https://stackoverflow.com/questions/8858008/how-to-move-a-file-in-python
 def save_pkl(graph, name: str):
+    #Create path if it doesnt exist already
+    if not os.path.exists(local_data_path):
+        os.makedirs(local_data_path)
+    file_location = '{}{}.pkl'.format(local_data_path, name)
+    #Make a backup so we can restore in case of a pickling error.
+    backup_location = '{}{}_backup.pkl'.format(local_data_path, name)
+    if os.path.exists(file_location):
+        if os.path.exists(backup_location):
+            os.remove(backup_location)
+            print("Old backup removed.")
+        os.rename(file_location, backup_location)
+    #Try to pickle
+    try:
+        with open(file_location, 'wb') as output:
+            pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
+    except pickle.PicklingError as e:
+        print("PicklingError: " + str(e))
+        print("Object not saved.")
+        #Restore from backup if available, otherwise remove the garbage
+        if os.path.exists(backup_location):
+            os.remove(file_location)
+            os.rename(backup_location, file_location)
+        else:
+            os.remove(file_location)
+        return
+    print("Object saved to {}".format(file_location))
+    #Remove backup if it exists
+    if os.path.exists(backup_location):
+        os.remove(backup_location)
+    
+#V1, backs up by copying instead of renaming
+def save_pkl_legacy(graph, name: str):
     #Create path if it doesnt exist already
     if not os.path.exists(local_data_path):
         os.makedirs(local_data_path)
@@ -186,7 +219,6 @@ def save_pkl(graph, name: str):
     #Remove backup if it exists
     if os.path.exists(backup_location):
         os.remove(backup_location)
-    
 
 #Load graph from file
 def load_pkl(name: str):
