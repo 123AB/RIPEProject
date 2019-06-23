@@ -82,29 +82,6 @@ def load_graph_data(data_path):
 
     return G
 
-#Load graph data using integers as nodes.
-#Nodes are integers so there is no need to check if a node exists already.
-def load_graph_data_legacy(data_path):
-    G = nx.MultiGraph()
-    with open(data_path) as f:
-        for x in f:
-            #Read line, strip newline, split on vertical bar "|"
-            content = x.strip()
-            line_spl = content.split("|")
-            
-            #First two entries are nodes. Pop them and cast to integer.
-            node1 = int(line_spl.pop(0))
-            node2 = int(line_spl.pop(0))
-            
-            #The remaining entries are links. Loop over the links.
-            #Split each link on comma ",". The first element is the name of the city.
-            #Add an edge between node1 and node2 and set the city name as the attribute of the edge.
-            for link in line_spl:
-                link_spl = link.split(",")
-                ct = link_spl[0]
-                G.add_edge(node1, node2, city = ct)
-    return G
-
 #Load location data from text file and create a coordinate dictionary/city list.
 def load_loc_data(data_path):
     coords = dict()
@@ -190,7 +167,46 @@ def save_pkl(graph, name: str):
     #Remove backup if it exists
     if os.path.exists(backup_location):
         os.remove(backup_location)
-    
+
+#Load graph from file
+def load_pkl(name: str):
+    file_location = '{}{}.pkl'.format(local_data_path, name)
+    try:
+        with open(file_location, 'rb') as input:
+            graph = pickle.load(input)
+            print("Object loaded from {}".format(file_location))
+    except FileNotFoundError:
+        print("File not found: {}".format(file_location))
+        print("Object not loaded.")
+        return False
+    return graph
+
+
+#-------------------------------------Junk-------------------------------------
+
+#Load graph data using integers as nodes.
+#Nodes are integers so there is no need to check if a node exists already.
+def load_graph_data_legacy(data_path):
+    G = nx.MultiGraph()
+    with open(data_path) as f:
+        for x in f:
+            #Read line, strip newline, split on vertical bar "|"
+            content = x.strip()
+            line_spl = content.split("|")
+            
+            #First two entries are nodes. Pop them and cast to integer.
+            node1 = int(line_spl.pop(0))
+            node2 = int(line_spl.pop(0))
+            
+            #The remaining entries are links. Loop over the links.
+            #Split each link on comma ",". The first element is the name of the city.
+            #Add an edge between node1 and node2 and set the city name as the attribute of the edge.
+            for link in line_spl:
+                link_spl = link.split(",")
+                ct = link_spl[0]
+                G.add_edge(node1, node2, city = ct)
+    return G
+
 #V1, backs up by copying instead of renaming
 def save_pkl_legacy(graph, name: str):
     #Create path if it doesnt exist already
@@ -220,15 +236,9 @@ def save_pkl_legacy(graph, name: str):
     if os.path.exists(backup_location):
         os.remove(backup_location)
 
-#Load graph from file
-def load_pkl(name: str):
+# Original save, pickling error causes overwrite
+def save_graph_naive(graph, name: str):
     file_location = '{}{}.pkl'.format(local_data_path, name)
-    try:
-        with open(file_location, 'rb') as input:
-            graph = pickle.load(input)
-            print("Object loaded from {}".format(file_location))
-    except FileNotFoundError:
-        print("File not found: {}".format(file_location))
-        print("Object not loaded.")
-        return False
-    return graph
+    with open(file_location, 'wb') as output:
+        pickle.dump(graph, output, pickle.HIGHEST_PROTOCOL)
+    print("Graph saved to {}".format(file_location))

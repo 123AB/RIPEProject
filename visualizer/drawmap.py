@@ -30,3 +30,7 @@ def draw_map(m, scale=0.2):
 def draw_point(m, p, coord, style = 'ok', size = 1):
     x, y = m(coord[0],coord[1])
     p.plot(x, y, style, markersize=size)
+    
+#Draw a black and white map
+def draw_map_simple(m):
+    m.drawcoastlines(linewidth=1, linestyle='solid', color=[0.5,0.5,0.5])

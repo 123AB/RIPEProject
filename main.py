@@ -116,6 +116,19 @@ for ct in cts:
     else:
         vis.draw_point(m, plt, coords[ct], size = 1.5 + np.log(ct_count[ct]))
 
+#Simple Map
+plt.figure()
+m2 = Basemap(projection='cyl', resolution='l', llcrnrlat=-90, urcrnrlat=90, llcrnrlon=-180, urcrnrlon=180)
+vis.draw_map_simple(m2)
+
+for ct in cts:
+    #vis.draw_point(m, plt, coords[ct], size = 1.5)
+#    if ct_count[ct] > 1000 and highlight:
+    if ct in top_20_eu:
+        vis.draw_point(m2, plt, coords[ct], style = 'ro', size = 1.5 + np.log(ct_count[ct]))
+    else:
+        vis.draw_point(m2, plt, coords[ct], size = 1.5 + np.log(ct_count[ct]))
+
 #Statistics
 n_nodes = len(G0.nodes())
 n_edges = len(G0.edges())

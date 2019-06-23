@@ -36,6 +36,17 @@ def multi_edges(G):
 def avg_degree(G):
     return 2 * len(G.edges) / len(G.nodes)
 
+def diameter(G):
+    if hasattr(G, "diameter"):
+        print("Diameter = {}. Returned cached value.".format(G.diameter))
+        return G.diameter
+    start = time.time()
+    diam = nx.diameter(G)
+    end = time.time()
+    print("Diameter = {}. Time elapsed: {:.5f} seconds".format(diam, end-start))
+    G.diameter = diam
+    return diam
+
 def assortativity(G):
     if hasattr(G, "assortativity"):
         print("Assortativity = {:.5f}. Returned cached value.".format(G.assortativity))
