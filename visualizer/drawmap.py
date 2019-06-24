@@ -27,9 +27,13 @@ def draw_map(m, scale=0.2):
         line.set(linestyle='-', alpha=0.3, color='w')
 
 #https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-def draw_point(m, p, coord, style = 'ok', size = 1):
+def draw_point(m, p, coord, style = 'o', color=[0, 0, 0], size = 1):
     x, y = m(coord[0],coord[1])
-    p.plot(x, y, style, markersize=size)
+    p.plot(x, y, style, color=color, markersize=size)
+
+def addtext(m, p, coord, text, color, size):
+    x, y = m(coord[0],coord[1])
+    p.text(x, y, '  '+text, color=color, fontsize=size);
     
 #Draw a black and white map
 def draw_map_simple(m):

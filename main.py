@@ -16,6 +16,7 @@ import visualizer.drawmap as vis
 import datareader.reader as dr
 import graph.graph_functions as gf
 import graph.graph_metrics as gm
+import simulation as sim
 
 #Load graph data
 G0 = dr.load_pkl("G0")
@@ -42,38 +43,6 @@ if G1 == False:
     gf.nid_to_node(G1)
     dr.save_pkl(G1, "G1")
 
-#Dictionary to convert normalized ID number to list index
-#norm_id_to_index_dict = dict()
-#for i in range(len(list(G0.nodes))):
-#    norm_id = list(G0.nodes)[i].norm_id
-#    norm_id_to_index_dict[norm_id] = i
-
-#id_in = 3
-#index = norm_id_to_index_dict[id_in]
-#id_out = list(G0.nodes)[index].norm_id
-
-"""
-G0_nid_to_ind = dict()
-for i in range(len(list(G0.nodes))):
-    norm_id = list(G0.nodes)[i].norm_id
-    G0_nid_to_ind[norm_id] = i
-    
-G1_nid_to_ind = dict()
-for i in range(len(list(G1.nodes))):
-    norm_id = list(G1.nodes)[i].norm_id
-    G1_nid_to_ind[norm_id] = i
-
-G1_nid_to_node = dict()
-for node in G1.nodes:
-    G1_nid_to_node[node.norm_id] = node
-"""
-
-#Plot
-#fig = plt.figure(figsize=(8, 6), edgecolor='w')
-fig = plt.figure(figsize=(24, 18), edgecolor='w')
-m = Basemap(projection='cyl', resolution=None, llcrnrlat=-90, urcrnrlat=90, llcrnrlon=-180, urcrnrlon=180)
-vis.draw_map(m)
-
 #Count number of links per city
 ct_count = dict()
 for edge in G0.edges(keys=True, data="city"):
@@ -83,7 +52,7 @@ for edge in G0.edges(keys=True, data="city"):
     else:
         ct_count[city] = ct_count[city] + 1
 
-#Draw cities
+#Biggest European Cities
 top_20_eu = [
     "Frankfurt Am Main-05-DE",
     "London-ENG-UK",
@@ -92,42 +61,81 @@ top_20_eu = [
     "Hoofddorp-07-NL",
     "Saint Petersburg-66-RU",
     "Paris-A8-FR",
-    "Novosibirsk-53-RU",
+#    "Novosibirsk-53-RU",
     "Milano-09-IT",
     "Amsterdam-NH-NL",
     "Stockholm-26-SE",
-    "Z_Rich-ZH-CH",
-    "Vienna-09-AT",
-    "Munich-02-DE",
-    "Madrid-29-ES",
-    "Warsaw-78-PL",
-    "Moscow-MOW-RU",
-    "Slough-ENG-UK",
-    "Berlin-16-DE",
-    "Prague-52-CZ",
+#    "Z_Rich-ZH-CH",
+#    "Vienna-09-AT",
+#    "Munich-02-DE",
+#    "Madrid-29-ES",
+#    "Warsaw-78-PL",
+#    "Moscow-MOW-RU",
+#    "Slough-ENG-UK",
+#    "Berlin-16-DE",
+#    "Prague-52-CZ",
 ]
 
-highlight = False
+text = True
+highlight = [
+    "Frankfurt Am Main-05-DE",
+    "San Juan-127-PR",
+    "Tokyo-13-JP",
+    "Moscow-48-RU",
+    "Novosibirsk-53-RU"
+]
+
+#highlight = top_20_eu
+#highlight = []
+
+#1 on, 0 off
+sizeadd = 1
+
+#http://math.loyola.edu/~loberbro/matlab/html/colorsInMatlab.html
+#hlc = [0, 0.4470, 0.7410]
+hlc = [0.8500, 0.3250, 0.0980]
+
+#Plot Relief
+#fig = plt.figure(figsize=(8, 6), edgecolor='w')
+m = Basemap(projection='cyl', resolution=None, llcrnrlat=-90, urcrnrlat=90, llcrnrlon=-180, urcrnrlon=180)
+vis.draw_map(m)
+
+#First pass normal, second pass highlight
 for ct in cts:
-    #vis.draw_point(m, plt, coords[ct], size = 1.5)
-#    if ct_count[ct] > 1000 and highlight:
-    if ct in top_20_eu:
-        vis.draw_point(m, plt, coords[ct], style = 'ro', size = 1.5 + np.log(ct_count[ct]))
-    else:
-        vis.draw_point(m, plt, coords[ct], size = 1.5 + np.log(ct_count[ct]))
+    if not ct in highlight:
+        vis.draw_point(m, plt, coords[ct], size = 1.5 + sizeadd*np.log(ct_count[ct]))
+
+for ct in highlight:
+    vis.draw_point(m, plt, coords[ct], color=hlc, size = 1.5 + sizeadd*np.log(ct_count[ct]))
+
+if text:
+    for ct in highlight:
+        temp = ct.split('-')
+        temp.pop(-1)
+        temp.pop(-1)
+        temp = "-".join(temp)
+        vis.addtext(m, plt, coords[ct], temp, hlc, 8)
 
 #Simple Map
 plt.figure()
 m2 = Basemap(projection='cyl', resolution='l', llcrnrlat=-90, urcrnrlat=90, llcrnrlon=-180, urcrnrlon=180)
 vis.draw_map_simple(m2)
 
+#First pass normal, second pass highlight
 for ct in cts:
-    #vis.draw_point(m, plt, coords[ct], size = 1.5)
-#    if ct_count[ct] > 1000 and highlight:
-    if ct in top_20_eu:
-        vis.draw_point(m2, plt, coords[ct], style = 'ro', size = 1.5 + np.log(ct_count[ct]))
-    else:
-        vis.draw_point(m2, plt, coords[ct], size = 1.5 + np.log(ct_count[ct]))
+    if not ct in highlight:
+        vis.draw_point(m2, plt, coords[ct], size = 1.5 + sizeadd*np.log(ct_count[ct]))
+
+for ct in highlight:
+    vis.draw_point(m2, plt, coords[ct], color=hlc, size = 1.5 + sizeadd*np.log(ct_count[ct]))
+
+if text:
+    for ct in highlight:
+        temp = ct.split('-')
+        temp.pop(-1)
+        temp.pop(-1)
+        temp = "-".join(temp)
+        vis.addtext(m, plt, coords[ct], temp, hlc, 8)
 
 #Statistics
 n_nodes = len(G0.nodes())
